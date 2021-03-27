@@ -1,5 +1,5 @@
 {
-  "name": "@scaffold-eth/hardhat",
+  "name": "gardens-template",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -26,6 +26,7 @@
     "typescript": "^4.2.2"
   },
   "dependencies": {
+    "@1hive/apps-brightid-register": "^0.1.7",
     "@aragon/apps-shared-minime": "^1.0.0",
     "@aragon/apps-vault": "^4.1.0",
     "@aragon/os": "4.3.0",
@@ -49,7 +50,8 @@
   },
   "scripts": {
     "chain": "hardhat node",
-    "fork": "hardhat node --fork https://mainnet.infura.io/v3/460f40a260564ac4a4f4b3fffb032dad",
+    "fork": "MAINNET_FORK=true hardhat node",
+    "console:fork": "MAINNET_FORK=true hardhat console",
     "test": "hardhat test",
     "test:gas": "REPORT_GAS=true hardhat test",
     "compile": "hardhat compile",
