@@ -1,0 +1,10 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "APMNamehash",
+  "sourceName": "@aragon/os/contracts/apm/APMNamehash.sol",
+  "abi": [],
+  "bytecode": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3006080604052600080fd00a165627a7a723058207dbd448f1bda4c242c28bc1a91e3f6a3b13d60a8a40af1e1082042d6b8b1af200029",
+  "deployedBytecode": "0x6080604052600080fd00a165627a7a723058207dbd448f1bda4c242c28bc1a91e3f6a3b13d60a8a40af1e1082042d6b8b1af200029",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

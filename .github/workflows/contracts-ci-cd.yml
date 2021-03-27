@@ -21,10 +21,10 @@ jobs:
         uses: actions/cache@v2
         with:
           path: |
-            packages/*/cache
-            packages/*/artifacts
+            cache
+            artifacts
             ~/.cache/hardhat-nodejs/
-          key: contracts-${{ hashFiles('packages/*/contracts/**/*.sol') }}
+          key: contracts-${{ hashFiles('contracts/**/*.sol') }}
 
       - name: Install dependencies
         run: yarn install --frozen-lockfile
