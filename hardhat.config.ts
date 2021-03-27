@@ -15,6 +15,8 @@ import { HttpNetworkUserConfig } from "hardhat/types";
 
 const { isAddress, getAddress, formatUnits, parseUnits } = utils;
 
+// const MAINNET_FORK = process.env.MAINNET_FORK === 'true';
+
 /*
       📡 This is where you configure your deploy configuration for 🏗 scaffold-eth
 
