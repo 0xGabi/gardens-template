@@ -1,0 +1,18 @@
+image:
+  file: .gitpod.dockerfile
+ports:
+  - port: 8545 # Hardhat network
+tasks:
+  - name: Main
+    init: yarn
+    command: yarn compile
+  - name: Chain
+    init: yarn
+    command: yarn chain
+  - name: Console
+    init: yarn
+    command: yarn console
+github:
+  prebuilds:
+    pullRequestsFromForks: true
+    addComment: true
